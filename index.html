@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Ancientmariner.GitHub.io by AncientMariner</title>
+    <title>Ancientmariner.github.io by AncientMariner</title>
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/github-dark.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
@@ -28,30 +28,31 @@
 
     <section>
         <div id="title">
-            <h1>ancientmariner.GitHub.io</h1>
+            <h1>ancientmariner.github.io</h1>
             <p></p>
             <hr>
-            <span class="credits left">Project maintained by <a
-                    href="https://github.com/AncientMariner">AncientMariner</a></span>
+            <span class="credits left">Project maintained by <a href="https://github.com/AncientMariner"
+                                                                class="user-mention">@AncientMariner</a></span>
             <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a
                     href="https://twitter.com/michigangraham">mattgraham</a></span>
         </div>
 
-        <h3>
+        <h2>
             <a id="name_header" class="anchor" href="#name_header" aria-hidden="true"><span
-                    aria-hidden="true" class="octicon octicon-link"></span></a>Design Patterns</h3>
+                    aria-hidden="true" class="octicon octicon-link"></span></a>Design Patterns</h2>
 
         <p>
             Design Patterns* Java code examples
             <br/>
             <br/>
             <br/>
-            *(A Pattern is a solution to a problem in a context)
+            *A Pattern is a solution to a problem in a context
             <br/>
             <i>An Anti-Pattern tells you how to go from a problem to a BAD solution.</i>
         </p>
 
-
+        <br/>
+        <br/>
         <h3>
             <a id="creating-pages-manually" class="anchor" href="#creating-pages-manually" aria-hidden="true"><span
                     aria-hidden="true" class="octicon octicon-link"></span></a>Basic description</h3>
@@ -61,50 +62,268 @@
             solutions were obtained by trial and error by numerous software developers over quite a substantial period
             of time</p>
 
-
-        <h3>
+        <br/>
+        <br/>
+        <br/>
+        <h2>
             <a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span
-                    aria-hidden="true" class="octicon octicon-link"></span></a>Patterns types</h3>
+                    aria-hidden="true" class="octicon octicon-link"></span></a>Pattern types</h2>
 
 
         <p>There are basically 3 design pattern type:
             <br/>
             <br/>
-            <b>Behavioral</b>
-            <br/>
+        <h3>Behavioral</h3>
+        <p>
             Most of these design patterns are specifically concerned with communication between objects.
+        </p>
+        <details>
+            <summary>
+                <p align="right">Click to open...</p>
+            </summary>
             <br/>
-            <br/>
-            <b>Structural</b>
-            <br/>
+            <p>
+                The <a
+                    href="https://github.com/AncientMariner/Patterns/tree/master/src/main/java/org/xander/behavioral/Command">Command</a>
+                Pattern encapsulates a request as an object, thereby letting you parametrize other objects with
+                different
+                requests, queue or log requests, and support undoable operations.
+            </p>
+            <p>
+                The <a
+                    href="https://github.com/AncientMariner/Patterns/tree/master/src/main/java/org/xander/behavioral/Interpreter">Interpreter</a>
+                Pattern is used to defines a grammatical representation for a language and provides an interpreter to
+                deal
+                with
+                this grammar
+            </p>
+            <p>
+                The <a
+                    href="https://github.com/AncientMariner/Patterns/tree/master/src/main/java/org/xander/behavioral/Iterator">Iterator</a>
+                Pattern provides a way to access the elements of an aggregate object sequentially without exposing its
+                underlying representation.
+            </p>
+            <p>
+                The <a
+                    href="https://github.com/AncientMariner/Patterns/tree/master/src/main/java/org/xander/behavioral/Mediator">Mediator</a>
+                Allows loose coupling by encapsulating the way disparate sets of objects interact and communicate with
+                each
+                other. Allows for the actions of each object set to vary independently of one another.
+            </p>
+            <p>
+                The <a
+                    href="https://github.com/AncientMariner/Patterns/tree/master/src/main/java/org/xander/behavioral/Memento">Memento</a>
+                Memento design pattern is used when we want to save the state of an object so that we can restore later
+                on.
+            </p>
+            <p>
+                The <a
+                    href="https://github.com/AncientMariner/Patterns/tree/master/src/main/java/org/xander/behavioral/Observer">Observer</a>
+                Pattern defines a one-to-many dependency between objects so that when one object changes state, all of
+                its
+                dependents are notified and updated automatically.
+            </p>
+            <p>
+                The <a
+                    href="https://github.com/AncientMariner/Patterns/tree/master/src/main/java/org/xander/behavioral/State">State</a>
+                Pattern allows an object to alter its behavior when its internal state changes. The object will appear
+                to
+                change its class.
+            </p>
+            <p>
+                The <a
+                    href="https://github.com/AncientMariner/Patterns/tree/master/src/main/java/org/xander/behavioral/Strategy">Strategy</a>
+                Pattern defines a family of algorithms, encapsulates each one, and makes them interchangeable. Strategy
+                lets
+                the algorithm vary independently from clients that use it.
+            </p>
+            <p>
+                The <a
+                    href="https://github.com/AncientMariner/Patterns/tree/master/src/main/java/org/xander/behavioral/Template">Template</a>
+                Pattern defines the skeleton of an algorithm in a method, deferring some steps to subclasses. Template
+                Method lets subclasses redefine certain steps of an algorithm without changing the algorithm’s
+                structure.
+            </p>
+            <p>
+                The <a
+                    href="https://github.com/AncientMariner/Patterns/tree/master/src/main/java/org/xander/behavioral/Visitor">Visitor</a>
+                Visitor pattern is used when we have to perform an operation on a group of similar kind of Objects. With
+                the
+                help of visitor pattern, we can move the operational logic from the objects to another class
+            </p>
+        </details>
+
+        <h3>Structural</h3>
+        <p>
             These concern class and object composition. They use inheritance to compose interfaces and define ways to
             compose objects to obtain new functionality.
+        </p>
+        <details>
+            <summary>
+                <p align="right">Click to open...</p>
+            </summary>
             <br/>
-            <br/>
-            <b>Creational</b>
-            <br/>
+            <p>
+                The <a
+                    href="https://github.com/AncientMariner/Patterns/tree/master/src/main/java/org/xander/structural/Adapter">Adapter</a>
+                Pattern converts the interface of a class into another interface the clients expect. Adapter lets
+                classes work together that couldn’t otherwise because of incompatible interfaces.
+            </p>
+            <p>
+                The <a
+                    href="https://github.com/AncientMariner/Patterns/tree/master/src/main/java/org/xander/structural/Bridge">Bridge</a>
+                Decouple an abstraction from its implementation so that the two can vary independently
+            </p>
+
+            <p>
+                The <a
+                    href="https://github.com/AncientMariner/Patterns/tree/master/src/main/java/org/xander/structural/Composite">Composite</a>
+                Pattern allows you to compose objects into tree structures to represent part-whole hierarchies.
+                Composite lets clients treat individual objects and compositions of objects uniformly.
+            </p>
+
+            <p>
+                The <a
+                    href="https://github.com/AncientMariner/Patterns/tree/master/src/main/java/org/xander/structural/Decorator">Decorator</a>
+                Pattern attaches additional responsibilities to an object dynamically. Decorators provide a flexible
+                alternative to subclassing for extending functionality.
+            </p>
+
+            <p>
+                The <a
+                    href="https://github.com/AncientMariner/Patterns/tree/master/src/main/java/org/xander/structural/Facade">Facade</a>
+                Provide a unified interface to a set of interfaces in a subsystem. Facade Pattern defines a higher-level
+                interface that makes the subsystem easier to use
+            </p>
+            <p>
+                The <a
+                    href="https://github.com/AncientMariner/Patterns/tree/master/src/main/java/org/xander/structural/Flyweight">
+                Flyweight</a>Use sharing to support large numbers of fine-grained objects efficiently
+            </p>
+            <p>
+                The <a
+                    href="https://github.com/AncientMariner/Patterns/tree/master/src/main/java/org/xander/structural/Proxy">Proxy</a>
+                Pattern provides a surrogate or placeholder for another object to control access to it.
+            </p>
+
+        </details>
+
+        <h3>Creational</h3>
+        <p>
             Creational patterns are ones that create objects for you, rather than having you instantiate objects
             directly. This gives your program more flexibility in deciding which objects need to be created for a given
             case
         </p>
+        </p>
 
-        <h3>
-            <a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span
-                    aria-hidden="true" class="octicon octicon-link"></span></a>Authors and Contributors</h3>
+        <details>
+            <summary>
+                <p align="right">Click to open...</p>
+            </summary>
+            <br/>
+            <p>
+                The <a
+                    href="https://github.com/AncientMariner/Patterns/tree/master/src/main/java/org/xander/creational/Builder">Builder</a>
+                The intent of the Builder design pattern is to separate the construction of a complex object from its
+                representation
+            </p>
+            <p>
+                The <a
+                    href="https://github.com/AncientMariner/Patterns/tree/master/src/main/java/org/xander/creational/Compound">Compound</a>
+                pattern combines patterns with each other.
+            </p>
 
-        <p>The project on <a href="https://github.com">Github</a> is maintained by <a
-                href="https://github.com/AncientMariner" class="user-mention">@AncientMariner</a>. For any issues/code
-            changes - please contact directly on Github</p>
+            <p>
+                The <a
+                    href="https://github.com/AncientMariner/Patterns/tree/master/src/main/java/org/xander/creational/Factory">Factory</a>
+                Method Pattern defines an interface for creating an object, but lets subclasses decide which class to
+                instantiate. Factory Method lets a class defer instantiation to subclasses.
+            </p>
 
+            <p>
+                The <a
+                    href="https://github.com/AncientMariner/Patterns/tree/master/src/main/java/org/xander/creational/Prototype">Prototype</a>
+                Prototype design pattern is used when the Object creation is a costly affair and requires a lot of time
+                and resources and you have a similar object already existing
+            </p>
 
-        <h3>
-            <a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span
-                    aria-hidden="true" class="octicon octicon-link"></span></a>Support or Contact</h3>
+            <p>
+                The <a
+                    href="https://github.com/AncientMariner/Patterns/tree/master/src/main/java/org/xander/creational/Singleton">Singleton</a>
+                Pattern ensures a class has only one instance, and provides a global point of access to it.
+            </p>
 
-        <p>Project is made with <a href="https://pages.github.com/">github pages</a> and <a
-                href="https://jekyllrb.com/">Jekyll</a>.
-            <br/>All the contents of this website are © 2016 under the terms of the <a href="https://github.com/ancientMariner/LICENSE">MIT&nbsp;License</a></p>
+        </details>
+
+        <br/>
+        <br/>
+        <br/>
+
+        <table>
+            <tr>
+                <td>
+
+                    <h3>
+                        <a id="authors-and-contributors" class="anchor" href="#authors-and-contributors"
+                           aria-hidden="true"><span
+                                aria-hidden="true" class="octicon octicon-link"></span></a>Authors and Contributors
+                    </h3>
+                    <p>The project is maintained by <a href="https://github.com/AncientMariner" class="user-mention">@AncientMariner</a>.
+                        For any issues - please contact directly on Github
+                    </p>
+                </td>
+                <td>
+                    <h3>
+                        <a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span
+                                aria-hidden="true" class="octicon octicon-link"></span></a>Support or Contact
+                    </h3>
+                    <p>All the contents of this website are © 2016 under the terms of the <a
+                            href="https://github.com/AncientMariner/ancientmariner.github.io/blob/master/LICENSE">MIT&nbsp;License</a>
+                    </p>
+                </td>
+            </tr>
+        </table>
     </section>
+
+    <div>
+        <table>
+            <tr>
+                <td>
+                    <div class="grid align-left">
+                        <div class="unit whole">
+                            <div class="grid pane">
+                                <div class="unit whole center-on-mobiles">
+                                    <img src="images/ironCat.png" alt="Free Jekyll hosting on GitHub Pages" width="100"
+                                         height="100" align="left">
+                                    <div class="pane-content">
+                                        <h2 class="center-on-mobiles">
+                                            <strong>Free hosting</strong> with <a href="https://pages.github.com/">GitHub
+                                            Pages</a>.</h2>
+                                        <p><em>Powered by <a href="https://jekyllrb.com/">Jekyll</a></em>, so you can
+                                            easily deploy your site using GitHub for free—<a
+                                                    href="https://help.github.com/articles/about-supported-custom-domains/">custom
+                                                domain name</a>.</p>
+                                        <a href="https://pages.github.com/">Learn more about GitHub Pages →</a>
+                                    </div>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="unit two-thirds align-right center-on-mobiles">
+                        <p>
+                            Proudly hosted by
+                            <a href="https://github.com">
+                                <img src="images/footer-logo.png" alt="GitHub • Social coding" width="100" height="30">
+                            </a>
+                        </p>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
 
 </div>
 <!--[if !IE]>
