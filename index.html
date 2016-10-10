@@ -15,7 +15,6 @@
     <link rel="stylesheet" href="stylesheets/ie.css">
     <![endif]-->
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-
 </head>
 <body>
 <div id="header">
@@ -25,22 +24,26 @@
 </div><!-- end header -->
 
 <div class="wrapper">
-
     <section>
         <div id="title">
             <h1>ancientmariner.github.io</h1>
             <p></p>
             <hr>
-            <span class="credits left">Project maintained by <a href="https://github.com/AncientMariner"
-                                                                class="user-mention">@AncientMariner</a></span>
-            <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a
-                    href="https://twitter.com/michigangraham">mattgraham</a></span>
+            <span class="credits left">Project maintained by
+                <a href="https://github.com/AncientMariner" class="user-mention">@AncientMariner</a>
+            </span>
+            <span class="credits right">Hosted on GitHub Pages &mdash; Theme by
+                <a href="https://twitter.com/michigangraham">mattgraham</a>
+            </span>
         </div>
-
         <h2>
-            <a id="name_header" class="anchor" href="#name_header" aria-hidden="true"><span
-                    aria-hidden="true" class="octicon octicon-link"></span></a>Design Patterns</h2>
+            <a id="name_header" class="anchor" href="#name_header" aria-hidden="true">
+                <span aria-hidden="true" class="octicon octicon-link">
 
+                </span>
+            </a>
+            Design Patterns
+        </h2>
         <p>
             Design Patterns* Java code examples
             <br/>
@@ -50,29 +53,24 @@
             <br/>
             <i>An Anti-Pattern tells you how to go from a problem to a BAD solution.</i>
         </p>
-
         <br/>
         <br/>
         <h3>
             <a id="creating-pages-manually" class="anchor" href="#creating-pages-manually" aria-hidden="true"><span
                     aria-hidden="true" class="octicon octicon-link"></span></a>Basic description</h3>
-
-        <p>Design patterns represent the best practices used by experienced object-oriented software developers. Design
-            patterns are solutions to general problems that software developers faced during software development. These
-            solutions were obtained by trial and error by numerous software developers over quite a substantial period
-            of time</p>
-
+        <p> Design patterns represent the best practices used by experienced object-oriented software developers.
+            Design patterns are solutions to general problems that software developers faced during
+            software development. These solutions were obtained by trial and error by numerous software developers
+            over quite a substantial period of time
+        </p>
         <br/>
         <br/>
         <br/>
         <h2>
             <a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span
                     aria-hidden="true" class="octicon octicon-link"></span></a>Pattern types</h2>
-
-
         <p>There are basically 3 design pattern types:
-            <br/>
-            <br/>
+        <br/><br/>
         <h3>Behavioral</h3>
         <p>
             Most of these design patterns are specifically concerned with communication between objects.
@@ -152,7 +150,51 @@
                 help of visitor pattern, we can move the operational logic from the objects to another class
             </p>
         </details>
+        <h3>Creational</h3>
+        <p>
+            Creational patterns are ones that create objects for you, rather than having you instantiate
+            objects directly. This gives your program more flexibility in deciding which objects need
+            to be created for a given case
+        </p>
+        </p>
+        <details>
+            <summary>
+                <p align="right">Click to open...</p>
+            </summary>
+            <br/>
+            <p>
+                The <a
+                    href="https://github.com/AncientMariner/Patterns/tree/master/src/main/java/org/xander/creational/Builder">Builder</a>
+                The intent of the Builder design pattern is to separate the construction of a complex object from its
+                representation
+            </p>
+            <p>
+                The <a
+                    href="https://github.com/AncientMariner/Patterns/tree/master/src/main/java/org/xander/creational/Compound">Compound</a>
+                pattern combines patterns with each other.
+            </p>
 
+            <p>
+                The <a
+                    href="https://github.com/AncientMariner/Patterns/tree/master/src/main/java/org/xander/creational/Factory">Factory</a>
+                Method Pattern defines an interface for creating an object, but lets subclasses decide which class to
+                instantiate. Factory Method lets a class defer instantiation to subclasses.
+            </p>
+
+            <p>
+                The <a
+                    href="https://github.com/AncientMariner/Patterns/tree/master/src/main/java/org/xander/creational/Prototype">Prototype</a>
+                Prototype design pattern is used when the Object creation is a costly affair and requires a lot of time
+                and resources and you have a similar object already existing
+            </p>
+
+            <p>
+                The <a
+                    href="https://github.com/AncientMariner/Patterns/tree/master/src/main/java/org/xander/creational/Singleton">Singleton</a>
+                Pattern ensures a class has only one instance, and provides a global point of access to it.
+            </p>
+
+        </details>
         <h3>Structural</h3>
         <p>
             These concern class and object composition. They use inheritance to compose interfaces and define ways to
@@ -207,62 +249,10 @@
             </p>
 
         </details>
-
-        <h3>Creational</h3>
-        <p>
-            Creational patterns are ones that create objects for you, rather than having you instantiate objects
-            directly. This gives your program more flexibility in deciding which objects need to be created for a given
-            case
-        </p>
-        </p>
-
-        <details>
-            <summary>
-                <p align="right">Click to open...</p>
-            </summary>
-            <br/>
-            <p>
-                The <a
-                    href="https://github.com/AncientMariner/Patterns/tree/master/src/main/java/org/xander/creational/Builder">Builder</a>
-                The intent of the Builder design pattern is to separate the construction of a complex object from its
-                representation
-            </p>
-            <p>
-                The <a
-                    href="https://github.com/AncientMariner/Patterns/tree/master/src/main/java/org/xander/creational/Compound">Compound</a>
-                pattern combines patterns with each other.
-            </p>
-
-            <p>
-                The <a
-                    href="https://github.com/AncientMariner/Patterns/tree/master/src/main/java/org/xander/creational/Factory">Factory</a>
-                Method Pattern defines an interface for creating an object, but lets subclasses decide which class to
-                instantiate. Factory Method lets a class defer instantiation to subclasses.
-            </p>
-
-            <p>
-                The <a
-                    href="https://github.com/AncientMariner/Patterns/tree/master/src/main/java/org/xander/creational/Prototype">Prototype</a>
-                Prototype design pattern is used when the Object creation is a costly affair and requires a lot of time
-                and resources and you have a similar object already existing
-            </p>
-
-            <p>
-                The <a
-                    href="https://github.com/AncientMariner/Patterns/tree/master/src/main/java/org/xander/creational/Singleton">Singleton</a>
-                Pattern ensures a class has only one instance, and provides a global point of access to it.
-            </p>
-
-        </details>
-
-        <br/>
-        <br/>
-        <br/>
-
+        <br/><br/><br/>
         <table>
             <tr>
                 <td>
-
                     <h3>
                         <a id="authors-and-contributors" class="anchor" href="#authors-and-contributors"
                            aria-hidden="true"><span
@@ -284,7 +274,6 @@
             </tr>
         </table>
     </section>
-
     <div>
         <table>
             <tr>
@@ -324,7 +313,6 @@
             </tr>
         </table>
     </div>
-
 </div>
 <!--[if !IE]>
 <script>fixScale(document);</script><![endif]-->
